@@ -2,6 +2,7 @@ package org.example.coupon.template.api.beans;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.example.coupon.template.api.beans.rules.TemplateRule;
@@ -15,6 +16,7 @@ import org.example.coupon.template.api.beans.rules.TemplateRule;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class CouponTemplateInfo {
 
     private Long id;

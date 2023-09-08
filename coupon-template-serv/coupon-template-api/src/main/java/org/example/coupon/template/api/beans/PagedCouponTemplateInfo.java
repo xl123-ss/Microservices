@@ -17,7 +17,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class PageCouponTemplateInfo {
+public class PagedCouponTemplateInfo {
     public List<CouponTemplateInfo> templates;
 
     public int page;
