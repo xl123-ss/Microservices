@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>coupon-template-serv</module>
+        <module>coupon-calculation-serv</module>
     </modules>
 
     <parent>
