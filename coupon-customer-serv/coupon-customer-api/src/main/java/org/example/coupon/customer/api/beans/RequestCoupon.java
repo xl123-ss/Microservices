@@ -26,5 +26,5 @@ public class RequestCoupon {
      * 券模板 id
      */
     @NotNull
-    private Long couponTemplate;
+    private Long couponTemplateId;
 }

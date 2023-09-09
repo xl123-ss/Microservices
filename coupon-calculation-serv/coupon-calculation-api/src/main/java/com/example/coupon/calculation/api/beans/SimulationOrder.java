@@ -21,7 +21,7 @@ public class SimulationOrder {
     @NotNull
     private List<Product> products;
     @NotNull
-    private List<Long> couponIds;
+    private List<Long> couponIDs;
 
     private List<CouponInfo> couponInfos;
 

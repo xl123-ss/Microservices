@@ -1,6 +1,7 @@
 package org.example.coupon.template.api.beans;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -13,6 +14,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class CouponInfo {
     private Long id;
     private Long templateId;
