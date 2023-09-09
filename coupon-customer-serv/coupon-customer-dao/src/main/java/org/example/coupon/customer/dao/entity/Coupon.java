@@ -1,7 +1,6 @@
 package org.example.coupon.customer.dao.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.EntityListeners;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,7 +9,7 @@ import org.example.coupon.customer.api.enums.CouponStatus;
 import org.example.coupon.customer.dao.converter.CouponStatusConverter;
 import org.example.coupon.template.api.beans.CouponTemplateInfo;
 import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.Id;
+
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import jakarta.persistence.*;
 
@@ -30,6 +29,7 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "coupon")
 public class Coupon {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -74,5 +74,4 @@ public class Coupon {
     @CreatedDate
     @Column(name = "created_time", nullable = false)
     private Date createdTime;
-
 }
